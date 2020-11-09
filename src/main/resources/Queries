@@ -1,0 +1,7 @@
+INSERT INTO products (create_at, description, mark, nationality, price) VALUES (NOW(),'TROUSERS', 'LEE', 'EEUU',250)
+INSERT INTO CATEGORIES (description) VALUES ('SPORTWEAR')
+INSERT INTO products_to_categories VALUES (1,1) 
+
+SELECT * FROM PRODUCTS;
+SELECT * FROM CATEGORIES;
+SELECT * FROM products_to_categories;
