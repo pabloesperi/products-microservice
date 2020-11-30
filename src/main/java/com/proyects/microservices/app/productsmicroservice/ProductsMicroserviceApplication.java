@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
-@EntityScan({"com.proyects.microservices.app.productscommonsmicroservice.models"})
+@EntityScan({"com.proyects.microservices.app.commonsmicroservice.models"})
 public class ProductsMicroserviceApplication {
 
 	public static void main(String[] args) {

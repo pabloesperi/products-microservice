@@ -1,0 +1,6 @@
+RECORDAR:
+
+* En la implementación de la interfaz PagingAndSortingRepository antes del Path 
+del @RestResource, en la URL tiene que indicarse la palabra "search"
+
+* Cuando es un JPQL, recordar que, en vez del * es la letra en común que asignamos.
